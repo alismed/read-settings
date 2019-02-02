@@ -9,7 +9,7 @@ I used this script to create the app
 mkdir read-settings
 cd read-settings
 dotnet console new
-dot net add package Microsoft.Extensions.Configuration
-dot net add package Microsoft.Extensions.Configuration.FileExtensions
-dot net add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.FileExtensions
+dotnet add package Microsoft.Extensions.Configuration.Json
 ```
